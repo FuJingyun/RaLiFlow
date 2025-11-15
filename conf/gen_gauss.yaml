@@ -4,7 +4,7 @@ defaults:
   - model: gen_gauss
 
 ######################################
-dataset_path:  Dir TO H5 folder 
+dataset_path:  DATASET_PATH  #Dir TO H5 folder 
 ######################################
 model_name: GaussGen
 checkpoint: 
