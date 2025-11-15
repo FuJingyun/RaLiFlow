@@ -4,6 +4,7 @@ defaults:
   - model: raliflow
 
 ######################################
+# TO DO 1
 dataset_path:  DATASET_PATH # Dir TO H5 folder      
 ######################################
 
