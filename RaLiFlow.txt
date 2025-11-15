@@ -1,0 +1,2 @@
+We provide a pretrained model. Since it's too large to upload it to GitHub, please refer to the below link for download:
+https://pan.quark.cn/s/7ed5d84d8d1e
