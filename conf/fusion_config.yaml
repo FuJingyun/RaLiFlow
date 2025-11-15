@@ -8,6 +8,7 @@ slurm_id: 00000
 wandb_mode: offline # [offline, disabled, online]
 wandb_project_name: fusionflow
 ######################################
+# TO DO 1
 dataset_path:  DATASET_PATH
 ######################################
 
@@ -38,6 +39,7 @@ batch_size: 8
 epochs: 100
 gradient_clip_val: 5.0
 ######################################
+# TO DO 2
 my_model_save_path: SAVE_PATH
 ######################################
 
