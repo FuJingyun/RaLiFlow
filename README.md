@@ -53,9 +53,8 @@ PATH_TO_VOD_DATASET
     │       ├──00001.txt
 ```
 
-
-In each script that needs to be run, the parts where the **PATH** or **MODE** needs to be modified for Reproduction have been highlighted with **"TO DO"**.
 ### B. Generate VoD Scene Flow Dataset in .h5 format
+In each script that needs to be run, the parts where the **PATH** or **MODE** needs to be modified for Reproduction have been highlighted with **"TO DO"**.
 ```bash
 # You need to change the path in flow_gt_gen.py
 # change the val/train mode to generate the Training set and Validation set seperately.
