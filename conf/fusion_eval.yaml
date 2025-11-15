@@ -1,0 +1,35 @@
+defaults:
+  - _self_
+  - hydra: default
+  - model: raliflow
+
+######################################
+dataset_path:  /data/autodl-tmp/DATASET/view_of_delft_PUBLIC/vod_sf_5_mask_v9 # Dir TO H5 folder      
+######################################
+
+model_name: FusionFlow 
+checkpoint: /data/fjy/FusionFlow/dot_gauss_150/39_FusionFlow.ckpt
+
+
+av2_mode: val # [val, test]
+dataset_name: VOD  
+estimate_sf: radar_and_lidar  
+vod_mode: radar_lidar 
+save_res: False # [True, False]
+
+slurm_id: 00000
+output: ${model.name}-${slurm_id}
+gpus: '0'
+available_gpus: [ 0 ] 
+num_workers: 8
+seed: 42069
+eval_only: True
+wandb_mode: offline # [offline, disabled, online]
+
+voxel_size: [0.1, 0.1, 6] # X Y Z
+point_cloud_range: [0, -25.6, -3, 51.2, 25.6, 3]
+variation: 1
+num_frames: 2  # max to 5
+
+is_freeze: False
+dynamic_mask: False 

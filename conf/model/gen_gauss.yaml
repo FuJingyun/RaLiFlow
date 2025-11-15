@@ -1,0 +1,8 @@
+name: fusionflow
+
+target:
+  _target_: scripts.network.models.raliflow.gen_gauss
+  voxel_size: ${voxel_size}
+  point_cloud_range: ${point_cloud_range}
+
+val_monitor: Lidar val/Three-way
