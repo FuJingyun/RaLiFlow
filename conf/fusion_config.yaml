@@ -30,8 +30,11 @@ eval_only: False
 
 
 # trainer
+######################################
+# TO DO 2
 available_gpus: [0, 1, 2, 3]  
 gpus: '0, 1, 2, 3' 
+######################################
 
 num_workers: 16
 sync_bn: true
@@ -39,7 +42,7 @@ batch_size: 8
 epochs: 100
 gradient_clip_val: 5.0
 ######################################
-# TO DO 2
+# TO DO 3
 my_model_save_path: SAVE_PATH
 ######################################
 
