@@ -17,8 +17,45 @@ cd assets/cuda/chamfer3D && python ./setup.py install && cd ../../..
 ```
 
 ## 1. Data Preparation
+### A. Download The View-of-Delft dataset [(VoD)](https://github.com/tudelft-iv/view-of-delft-dataset)
+The dataset is organized as follows:
+```
+PATH_TO_VOD_DATASET
+    ├── image_2
+    │   │── 00001.jpg
+    |       ...
+    ├── pose
+    │   │── 00001.json
+    |       ...
+    |       ...
+    ├── label_2_withid
+    │   │── 00001.txt
+    |       ...
+    |
+    ├── lidar
+    │   │── training
+    │       ├── velodyne
+    │           ├── 00001.bin
+    │       ...
+    │   │── calib
+    │       ├──00001.txt
+    │       ...
+    ├── radar_5frames
+    │   │── training
+    │       ├── velodyne
+    │           ├── 00001.bin
+    │       ...
+    │   │── calib
+    │       ├──00001.txt
+    │       ...
+    ├── seg_ground_5frames
+    │   │── training
+    │       ├──00001.txt
+```
+
+
 In each script that needs to be run, the parts where the **PATH** or **MODE** needs to be modified for Reproduction have been highlighted with **"TO DO"**.
-### A. Generate VoD Scene Flow Dataset in .h5 format
+### B. Generate VoD Scene Flow Dataset in .h5 format
 ```bash
 # You need to change the path in flow_gt_gen.py
 # change the val/train mode to generate the Training set and Validation set seperately.
@@ -32,7 +69,7 @@ And we provide the pointwise ground labels for 5_frame_radar and 1_frame_radar v
 [5_frame_version](https://pan.quark.cn/s/586ec31f4ff8)
 [1_frame_version](https://pan.quark.cn/s/d4091f579c6d)
 
-### B. Generate Dynamic Radar-guided Gaussion Weights for .h5 files
+### C. Generate Dynamic Radar-guided Gaussion Weights for .h5 files
 ```bash
 # You need to change the **PATH** or **MODE** in ./conf/gen_gauss.yaml
 # change the val/train mode to generate gaussion weights for the Training set and Validation set seperately.
