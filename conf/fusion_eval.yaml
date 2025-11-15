@@ -4,7 +4,7 @@ defaults:
   - model: raliflow
 
 ######################################
-dataset_path:  /data/autodl-tmp/DATASET/view_of_delft_PUBLIC/vod_sf_5_mask_v9 # Dir TO H5 folder      
+dataset_path:  DATASET_PATH # Dir TO H5 folder      
 ######################################
 
 model_name: FusionFlow 
