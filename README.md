@@ -98,26 +98,6 @@ python eval.py
 
 
 ## Cite & Acknowledgements
-
-```
-@inproceedings{zhang2024seflow,
-  author={Zhang, Qingwen and Yang, Yi and Li, Peizheng and Andersson, Olov and Jensfelt, Patric},
-  title={{SeFlow}: A Self-Supervised Scene Flow Method in Autonomous Driving},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  year={2024},
-  pages={353–369},
-  organization={Springer},
-  doi={10.1007/978-3-031-73232-4_20},
-}
-@inproceedings{zhang2024deflow,
-  author={Zhang, Qingwen and Yang, Yi and Fang, Heng and Geng, Ruoyu and Jensfelt, Patric},
-  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
-  title={{DeFlow}: Decoder of Scene Flow Network in Autonomous Driving}, 
-  year={2024},
-  pages={2105-2111},
-  doi={10.1109/ICRA57147.2024.10610278}
-}
-```
 ❤️: [OpenSceneFlow](https://github.com/KTH-RPL/OpenSceneFlow)
 ❤️: [DeFlow](https://github.com/KTH-RPL/DeFlow), [BucketedSceneFlowEval](https://github.com/kylevedder/BucketedSceneFlowEval)
 ❤️: [SeFlow](https://github.com/KTH-RPL/SeFlow)
