@@ -1,5 +1,5 @@
 # RaLiFlow: Scene Flow Estimation with 4D Radar and LiDAR Point Clouds
-Source Code for AAAI 2026 paper: "RaLiFlow: Scene Flow Estimation with 4D Radar and LiDAR Point Clouds"
+Source Code for AAAI 2026 paper: "RaLiFlow: Scene Flow Estimation with 4D Radar and LiDAR Point Clouds". 
 [Paper Link](http://arxiv.org/abs/2512.10376)
 ![](image/RaLiFlow.png)
 
