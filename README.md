@@ -43,6 +43,16 @@ PATH_TO_VOD_DATASET
     ├── pose
     │   │── 00001.json
     |       ...
+    ├── dlo_poses
+    │   │── train
+    │       ├──delftXX.txt
+    |       ...
+    │   │── test
+    │       ├──delftXX.txt
+    |       ...
+    │   │── val
+    │       ├──delftXX.txt
+    |       ...
     |       ...
     ├── label_2_withid
     │   │── 00001.txt
