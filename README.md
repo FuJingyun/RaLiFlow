@@ -40,10 +40,7 @@ PATH_TO_VOD_DATASET
     ├── image_2
     │   │── 00001.jpg
     |       ...
-    ├── pose
-    │   │── 00001.json
-    |       ...
-    ├── dlo_poses
+    ├── poses
     │   │── train
     │       ├──delftXX.txt
     |       ...
